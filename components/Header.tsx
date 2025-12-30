@@ -19,10 +19,9 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { label: "Services", href: "/services" },
-    { label: "Talent", href: "/employers" },
-    { label: "Jobs", href: "/candidates" },
     { label: "About", href: "/about" },
+    { label: "Services", href: "/services" },
+    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
   ];
 
