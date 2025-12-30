@@ -34,19 +34,19 @@ export default function ContactPage() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: "+1 (555) 123-4567",
+      details: "+91 96331 50030",
       subtitle: "Mon-Fri from 8am to 6pm",
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: "contact@dionz.com",
+      details: "dionzinfo@gmail.com",
       subtitle: "We reply within 24 hours",
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Office",
-      details: "123 Business Ave, Suite 100",
+      details: "Door No 109 chakirikadayil Tower Pallimukku ",
       subtitle: "New York, NY 10001",
     },
     {
