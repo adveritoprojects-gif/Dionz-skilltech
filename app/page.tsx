@@ -153,7 +153,7 @@ export default function DionzHomePage() {
               >
                 <Sparkles className="h-4 w-4 mr-2" />
                 <span className="text-sm font-medium">
-                  Connecting Talent Since 2010
+                  Connecting Talent Since 2018
                 </span>
               </motion.div>
 

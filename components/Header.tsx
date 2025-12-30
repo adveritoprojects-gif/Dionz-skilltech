@@ -106,14 +106,14 @@ export default function Header() {
 
                 {/* Premium CTA Button */}
                 <Link
-                  href="/contact"
+                  href="/recruit"
                   className="ml-4 group relative overflow-hidden"
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg" />
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-800 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="relative px-6 py-2.5 flex items-center space-x-2">
                     <span className="text-sm font-semibold text-white tracking-wide">
-                      Get Started
+                      Our Recruits
                     </span>
                     <ChevronRight className="w-4 h-4 text-white/80 group-hover:translate-x-1 transition-transform" />
                   </div>

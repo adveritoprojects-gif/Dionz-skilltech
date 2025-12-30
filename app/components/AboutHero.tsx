@@ -52,10 +52,19 @@ export default function AboutHero() {
 
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
-                DIONZ Manpower Agency is a trusted recruitment and staffing
-                solutions provider based in Kollam, Kerala. We specialize in
-                connecting skilled and unskilled professionals with reputed
-                employers across India and abroad.
+                DIONZ journey began in 2018, and since then we have been able to
+                become a support and shelter for many families. It has been more
+                than seven years since we started sending people for work to the
+                Holy Land of Israel. Among our milestones, the first & largest
+                group visa from South India in 2020 remains a golden feather in
+                our history - something widely covered by the media at that
+                time. What sets us apart is that we do this work not just for
+                money, but as a means of genuine support. DIONZ group has stood
+                beside hundreds of candidates as a pillar of strength, helping
+                them to find suitable jobs. We primarily operate in sectors such
+                as Construction, Agriculture, Commerce and similar fields. As we
+                continue this journey, we hope the candidate stays with us in
+                trust & fields. This journey does not end.....
               </p>
 
               <p className="text-lg text-gray-600 leading-relaxed">
