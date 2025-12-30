@@ -284,11 +284,11 @@ export default function Header() {
                   className="mt-12"
                 >
                   <Link
-                    href="/contact"
+                    href="/recruit"
                     onClick={() => setIsMobileOpen(false)}
                     className="block w-full py-4 text-center bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl font-semibold text-lg shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all hover:-translate-y-0.5"
                   >
-                    Start Your Journey
+                    Our Recruits
                   </Link>
                 </motion.div>
 
@@ -299,20 +299,7 @@ export default function Header() {
                   transition={{ delay: 0.4 }}
                   className="mt-12 pt-8 border-t border-blue-50"
                 >
-                  <div className="space-y-3">
-                    <div className="flex items-center space-x-2 text-blue-400">
-                      <div className="w-2 h-2 bg-blue-400 rounded-full" />
-                      <span className="text-sm font-medium">
-                        LONDON • NEW YORK
-                      </span>
-                    </div>
-                    <p className="text-sm text-gray-500">
-                      Premium manpower solutions for global businesses
-                    </p>
-                    <p className="text-sm text-gray-400">
-                      © 2025 DIONZ Manpower Agency
-                    </p>
-                  </div>
+                  
                 </motion.div>
               </div>
             </motion.div>
