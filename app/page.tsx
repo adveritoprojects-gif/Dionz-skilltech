@@ -134,61 +134,7 @@ export default function DionzHomePage() {
       </div>
 
       {/* Header */}
-      <header
-        className={`fixed w-full z-50 transition-all duration-300 ${
-          isScrolled
-            ? "bg-white/95 backdrop-blur-md shadow-lg py-3"
-            : "bg-transparent py-6"
-        }`}
-      >
-        <div className="container mx-auto px-6 flex justify-between items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-            className="flex items-center space-x-2"
-          >
-            <div className="h-10 w-10 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">D</span>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-700 to-indigo-800 bg-clip-text text-transparent">
-              DIONZ
-            </span>
-          </motion.div>
-
-          <nav className="hidden md:flex space-x-8">
-            {[
-              "Home",
-              "Services",
-              "Employers",
-              "Candidates",
-              "About",
-              "Contact",
-            ].map((item, index) => (
-              <motion.a
-                key={item}
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: index * 0.1 }}
-                href="#"
-                className="font-medium text-gray-700 hover:text-blue-600 transition-colors relative group"
-              >
-                {item}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
-              </motion.a>
-            ))}
-          </nav>
-
-          <motion.button
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 flex items-center"
-          >
-            Get Started <ChevronRight className="ml-2 h-4 w-4" />
-          </motion.button>
-        </div>
-      </header>
+      
 
       {/* Hero Section */}
       <section ref={sectionRefs.hero} className="relative pt-32 pb-20 px-6">
@@ -475,72 +421,6 @@ export default function DionzHomePage() {
           </motion.div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="py-12 px-6 bg-gray-900 text-gray-300">
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-4 gap-10">
-            <div>
-              <div className="flex items-center space-x-2 mb-6">
-                <div className="h-10 w-10 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-xl">D</span>
-                </div>
-                <span className="text-2xl font-bold text-white">DIONZ</span>
-              </div>
-              <p className="mb-6">
-                Connecting talent with opportunity to create sustainable futures
-                for individuals and businesses.
-              </p>
-              <div className="flex space-x-4">
-                {["twitter", "linkedin", "facebook", "instagram"].map(
-                  (platform) => (
-                    <a
-                      key={platform}
-                      href="#"
-                      className="bg-gray-800 h-10 w-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors"
-                    >
-                      <span className="font-bold">
-                        {platform.charAt(0).toUpperCase()}
-                      </span>
-                    </a>
-                  )
-                )}
-              </div>
-            </div>
-
-            {["Employers", "Candidates", "Services", "Company"].map(
-              (column) => (
-                <div key={column}>
-                  <h4 className="text-white font-bold text-lg mb-6">
-                    {column}
-                  </h4>
-                  <ul className="space-y-3">
-                    {["Link One", "Link Two", "Link Three", "Link Four"].map(
-                      (link) => (
-                        <li key={link}>
-                          <a
-                            href="#"
-                            className="hover:text-white transition-colors"
-                          >
-                            {link}
-                          </a>
-                        </li>
-                      )
-                    )}
-                  </ul>
-                </div>
-              )
-            )}
-          </div>
-
-          <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
-            <p>
-              © {new Date().getFullYear()} DIONZ Manpower Agency. All rights
-              reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
