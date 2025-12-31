@@ -3,7 +3,7 @@
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useRef, useEffect } from 'react';
 import { Briefcase, Users, CheckCircle, Star, ChevronRight } from 'lucide-react';
-import ServiceCard from './ui/ServiceCard';
+import ServiceCard from './ServiceCard';
 
 export default function Services() {
   const sectionRef = useRef(null);
