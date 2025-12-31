@@ -6,8 +6,8 @@ import { Calendar, User, ArrowRight, Briefcase, Users, Globe } from 'lucide-reac
 
 const blogPosts = [
   {
-    title: "DIONZ Manpower Agency – Bridging Talent and Opportunities",
-    description: "DIONZ Manpower Agency introduces its trusted recruitment and staffing solutions in Kollam, Kerala. Specializing in international and domestic placements for skilled and unskilled workers. Focused on ethical recruitment, transparency, and career empowerment.",
+    title: "DIONZ Skilltech Agency – Bridging Talent and Opportunities",
+    description: "DIONZ Skilltech Agency introduces its trusted recruitment and staffing solutions in Kollam, Kerala. Specializing in international and domestic placements for skilled and unskilled workers. Focused on ethical recruitment, transparency, and career empowerment.",
     date: "2025-10-03",
     author: "Admin",
     category: "Company News",

@@ -15,7 +15,7 @@ const services = [
   {
     title: "International Recruitment",
     description:
-      "DIONZ Manpower Agency provides trusted international recruitment services for skilled and semi-skilled workers. We connect professionals with global employers in industries like construction, healthcare, hospitality, and logistics. Our transparent process ensures legal and safe overseas employment.",
+      "DIONZ Skilltech Agency provides trusted international recruitment services for skilled and semi-skilled workers. We connect professionals with global employers in industries like construction, healthcare, hospitality, and logistics. Our transparent process ensures legal and safe overseas employment.",
     icon: <Globe className="w-8 h-8" />,
     features: [
       "Global placement",
@@ -41,7 +41,7 @@ const services = [
   {
     title: "Skilled & Unskilled Labour Supply",
     description:
-      "We provide skilled and unskilled labour supply for industries like construction, healthcare, hospitality, and logistics. Our manpower solutions are reliable, affordable, and timely, ensuring the right workforce for every business need.",
+      "We provide skilled and unskilled labour supply for industries like construction, healthcare, hospitality, and logistics. Our Skilltech solutions are reliable, affordable, and timely, ensuring the right workforce for every business need.",
     icon: <Users className="w-8 h-8" />,
     features: [
       "Industry-specific labor",
@@ -106,7 +106,7 @@ export default function ServicesGrid() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Comprehensive{" "}
-            <span className="text-blue-600">Manpower Solutions</span>
+            <span className="text-blue-600">Skilltech Solutions</span>
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
             Every service is delivered with professionalism and a customer-first

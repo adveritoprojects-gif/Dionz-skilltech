@@ -128,7 +128,7 @@ export default function DionzHomePage() {
     },
     {
       title: "Domestic Staffing",
-      description: "Reliable manpower solutions for Indian businesses",
+      description: "Reliable Skilltech solutions for Indian businesses",
       icon: <Home className="h-8 w-8" />,
       image: "/images/domestic.jpg",
       color: "bg-indigo-100",
@@ -160,7 +160,7 @@ export default function DionzHomePage() {
         <div className="absolute inset-0">
           <Image
             src="/images/hero.png"
-            alt="DIONZ Manpower Agency"
+            alt="DIONZ Skilltech Agency"
             fill
             className="object-cover"
             priority
@@ -183,7 +183,7 @@ export default function DionzHomePage() {
               >
                 <Sparkles className="h-4 w-4 mr-2" />
                 <span className="text-sm font-medium">
-                  Trusted Manpower Agency Since 2018
+                  Trusted Skilltech Agency Since 2018
                 </span>
               </motion.div>
 
@@ -199,7 +199,7 @@ export default function DionzHomePage() {
                 variants={fadeInUp}
                 className="text-xl text-gray-200 mb-10 max-w-2xl bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20"
               >
-                At DIONZ Manpower Agency, we specialize in connecting skilled
+                At DIONZ Skilltech Agency, we specialize in connecting skilled
                 professionals with global opportunities. From construction
                 workers to corporate executives, we bridge talent with
                 opportunity across international borders.
@@ -472,7 +472,7 @@ export default function DionzHomePage() {
               variants={fadeInUp}
               className="text-xl text-gray-600 max-w-3xl mx-auto"
             >
-              Tailored manpower solutions designed to meet diverse industry
+              Tailored Skilltech solutions designed to meet diverse industry
               needs
             </motion.p>
           </motion.div>
@@ -574,7 +574,7 @@ export default function DionzHomePage() {
             </h2>
             <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
               Whether you're seeking international opportunities or looking for
-              reliable manpower solutions, DIONZ is your trusted partner for
+              reliable Skilltech solutions, DIONZ is your trusted partner for
               success.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

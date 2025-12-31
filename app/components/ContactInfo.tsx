@@ -57,7 +57,7 @@ export default function ContactInfo() {
             Get in <span className="text-blue-600">Touch</span>
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Connect with us for all your manpower and recruitment needs
+            Connect with us for all your Skilltech and recruitment needs
           </p>
         </motion.div>
 
@@ -126,7 +126,7 @@ export default function ContactInfo() {
             </h3>
             
             <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
-              Whether you're looking for job opportunities or seeking reliable manpower solutions, 
+              Whether you're looking for job opportunities or seeking reliable Skilltech solutions, 
               our team is here to assist you every step of the way.
             </p>
             

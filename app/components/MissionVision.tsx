@@ -27,8 +27,8 @@ export default function MissionVision() {
               
               <div className="space-y-6">
                 <p className="text-blue-100 leading-relaxed">
-                  At DIONZ Manpower Agency, our mission is to empower individuals with the right career paths 
-                  while helping businesses grow with reliable manpower solutions.
+                  At DIONZ Skilltech Agency, our mission is to empower individuals with the right career paths 
+                  while helping businesses grow with reliable Skilltech solutions.
                 </p>
                 
                 <div className="space-y-4">
@@ -95,7 +95,7 @@ export default function MissionVision() {
               
               <div className="space-y-6">
                 <p className="text-gray-600 leading-relaxed">
-                  Our vision is to become the most trusted and preferred manpower solutions provider, 
+                  Our vision is to become the most trusted and preferred Skilltech solutions provider, 
                   recognized for our integrity, quality service, and commitment to excellence.
                 </p>
                 

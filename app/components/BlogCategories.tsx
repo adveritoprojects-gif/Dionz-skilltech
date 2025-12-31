@@ -139,11 +139,11 @@ export default function BlogCategories() {
                 </div>
 
                 <h3 className="text-2xl font-bold mb-4">
-                  DIONZ Manpower Agency – Bridging Talent and Opportunities
+                  DIONZ Skilltech Agency – Bridging Talent and Opportunities
                 </h3>
 
                 <p className="text-blue-100 mb-6 leading-relaxed">
-                  DIONZ Manpower Agency introduces its trusted recruitment and
+                  DIONZ Skilltech Agency introduces its trusted recruitment and
                   staffing solutions in Kollam, Kerala. Specializing in
                   international and domestic placements for skilled and
                   unskilled workers. Focused on ethical recruitment,

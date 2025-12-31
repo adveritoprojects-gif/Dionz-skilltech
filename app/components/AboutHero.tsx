@@ -29,29 +29,40 @@ export default function AboutHero() {
   ];
 
   return (
-    <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-br from-blue-50 via-white to-blue-50">
-      {/* Background Elements */}
-      <div className="absolute top-0 right-0 w-1/3 h-full">
-        <div className="absolute top-20 right-20 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
+    <section className="relative overflow-hidden py-16 md:py-24">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 bg-black/50 z-10" />{" "}
+        {/* Overlay for better text readability */}
+        <img
+          src="/images/about-hero.jpg"
+          alt="About DIONZ"
+          className="w-full h-full object-cover"
+          loading="eager"
+        />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-700/70 via-blue-600/60 to-blue-900/80 z-20" />
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-30">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="text-white"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               About{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-400 to-white bg-clip-text text-transparent">
                 DIONZ
               </span>
             </h1>
 
             <div className="space-y-6">
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg text-blue-100 leading-relaxed">
                 DIONZ journey began in 2018, and since then we have been able to
                 become a support and shelter for many families. It has been more
                 than seven years since we started sending people for work to the
@@ -67,15 +78,15 @@ export default function AboutHero() {
                 trust & fields. This journey does not end.....
               </p>
 
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg text-blue-100 leading-relaxed">
                 With years of expertise in international recruitment, corporate
                 staffing, training, career guidance, and document assistance, we
                 aim to bridge the gap between talent and opportunity.
               </p>
 
-              <div className="inline-flex items-center space-x-2 px-4 py-2 bg-blue-100 rounded-full">
-                <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse" />
-                <span className="text-blue-700 font-semibold">
+              <div className="inline-flex items-center space-x-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full border border-white/30">
+                <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
+                <span className="text-white font-semibold">
                   Trusted Since 2018
                 </span>
               </div>
@@ -87,22 +98,24 @@ export default function AboutHero() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-8 text-white"
+            className="bg-gradient-to-br from-blue-800/90 to-blue-900/90 backdrop-blur-sm rounded-3xl p-8 text-white border border-white/20 shadow-2xl"
           >
-            <h3 className="text-2xl font-bold mb-8">Our Impact</h3>
+            <h3 className="text-2xl font-bold mb-8 text-white">Our Impact</h3>
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-white/20 rounded-2xl mb-3">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-white/20 rounded-2xl mb-3 backdrop-blur-sm">
                     <div className="text-white">{stat.icon}</div>
                   </div>
-                  <div className="text-3xl font-bold mb-1">{stat.value}</div>
+                  <div className="text-3xl font-bold mb-1 text-white">
+                    {stat.value}
+                  </div>
                   <div className="text-blue-200 text-sm">{stat.label}</div>
                 </div>
               ))}
             </div>
 
-            <div className="mt-8 pt-6 border-t border-blue-500/30">
+            <div className="mt-8 pt-6 border-t border-white/20">
               <p className="text-blue-100 text-sm">
                 Trusted partner for hundreds of candidates as a pillar of
                 strength

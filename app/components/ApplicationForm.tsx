@@ -108,7 +108,7 @@ export default function ApplicationForm({ selectedJob }: ApplicationFormProps) {
   const createWhatsAppMessage = () => {
     // Create a formatted WhatsApp message
     const message = `
-📋 *NEW JOB APPLICATION - DIONZ MANPOWER AGENCY*
+📋 *NEW JOB APPLICATION - DIONZ SKILLTECH AGENCY*
 
 👤 *Applicant Information:*
 • *Name:* ${formData.name}

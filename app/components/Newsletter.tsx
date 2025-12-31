@@ -29,7 +29,7 @@ export default function Newsletter() {
               
               <p className="text-gray-600 mb-8 leading-relaxed">
                 Subscribe to our newsletter and be the first to know about new job openings, 
-                career tips, and industry insights from DIONZ Manpower Agency.
+                career tips, and industry insights from DIONZ Skilltech Agency.
               </p>
               
               <div className="space-y-4">

@@ -49,7 +49,7 @@ export default function Footer() {
       href: "/blog/project-manager",
     },
     {
-      title: "DIONZ Manpower Agency – Bridging Talent and Opportunities",
+      title: "DIONZ Skilltech Agency – Bridging Talent and Opportunities",
       href: "/blog/bridging-talent",
     },
     {
@@ -68,22 +68,22 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <Facebook className="w-5 h-5" />,
-      href: "https://facebook.com/dionz",
+      // href: "https://facebook.com/dionz",
       label: "Facebook",
     },
     {
       icon: <Twitter className="w-5 h-5" />,
-      href: "https://twitter.com/dionz",
+      // href: "https://twitter.com/dionz",
       label: "Twitter",
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com/company/dionz",
+      // href: "https://linkedin.com/company/dionz",
       label: "LinkedIn",
     },
     {
       icon: <Instagram className="w-5 h-5" />,
-      href: "https://instagram.com/dionz",
+      // href: "https://instagram.com/dionz",
       label: "Instagram",
     },
   ];
@@ -108,12 +108,12 @@ export default function Footer() {
                   DIONZ
                 </h2>
                 <p className="text-sm font-semibold tracking-[0.2em] uppercase text-blue-400">
-                  Manpower Agency
+                  Skilltech Agency
                 </p>
               </div>
 
               <p className="text-gray-600 leading-relaxed">
-                At DIONZ Manpower Agency, we specialize in providing reliable
+                At DIONZ Skilltech Agency, we specialize in providing reliable
                 and efficient manpower solutions tailored to the unique needs of
                 employers and job seekers.
               </p>
