@@ -7,6 +7,7 @@ const nextConfig = {
         hostname: "cdn.pixabay.com",
       },
     ],
+    qualities: [75, 100],
   },
 };
 
