@@ -68,22 +68,22 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <Facebook className="w-5 h-5" />,
-      // href: "https://facebook.com/dionz",
+      href: "https://facebook.com/dionz",
       label: "Facebook",
     },
     {
       icon: <Twitter className="w-5 h-5" />,
-      // href: "https://twitter.com/dionz",
+      href: "https://twitter.com/dionz",
       label: "Twitter",
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
-      // href: "https://linkedin.com/company/dionz",
+      href: "https://linkedin.com/company/dionz",
       label: "LinkedIn",
     },
     {
       icon: <Instagram className="w-5 h-5" />,
-      // href: "https://instagram.com/dionz",
+      href: "https://instagram.com/dionz",
       label: "Instagram",
     },
   ];
