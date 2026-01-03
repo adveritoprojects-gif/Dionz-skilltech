@@ -189,7 +189,7 @@ export default function Header() {
                   <Link href="/" onClick={() => setIsMobileOpen(false)}>
                     <div className="relative w-[160px] h-[40px]">
                       <Image
-                        src="/dionz.png"
+                        src="/favicon-16x16.png"
                         alt="DIONZ Skilltech Pvt Ltd"
                         fill
                         className="object-contain object-left"
