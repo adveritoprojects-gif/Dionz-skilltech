@@ -159,13 +159,15 @@ export default function DionzHomePage() {
         {/* Hero Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/hero.png"
+            src="/images/hero.webp"
             alt="DIONZ Skilltech Pvt Ltd"
             fill
             className="object-cover"
             priority
-            quality={100}
+            quality={90}
+            sizes="(max-width: 768px) 100vw, 100vw"
           />
+
           {/* Dark overlay for better text readability */}
           <div className="absolute inset-0 bg-black/40"></div>
         </div>
