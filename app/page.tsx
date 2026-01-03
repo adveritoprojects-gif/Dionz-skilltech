@@ -478,57 +478,38 @@ export default function DionzHomePage() {
             </motion.p>
           </motion.div>
 
-         
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {services.map((service, index) => (
+              <motion.div
+                key={service.title}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
+                className={`${service.color} p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100`}
+              >
+                <div className="mb-6">
+                  <div className="w-14 h-14 rounded-xl flex items-center justify-center">
+                    <div className="text-blue-600">{service.icon}</div>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold mb-4 text-gray-800">
+                  {service.title}
+                </h3>
+                <p className="text-gray-600 mb-6">{service.description}</p>
+                <a
+                  href="/services"
+                  className="text-blue-600 font-medium flex items-center group/link"
+                >
+                  Learn more
+                  <ChevronRight className="ml-2 h-4 w-4 group-hover/link:translate-x-2 transition-transform" />
+                </a>
+              </motion.div>
+            ))}
+          </div>
 
           {/* Service Gallery */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4"
-          >
-            <div className="relative h-48 rounded-xl overflow-hidden bg-blue-100">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Globe className="h-16 w-16 text-blue-600" />
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-4">
-                <div className="text-white font-semibold">
-                  International Recruitment
-                </div>
-              </div>
-            </div>
-            <div className="relative h-48 rounded-xl overflow-hidden bg-indigo-100">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Building className="h-16 w-16 text-indigo-600" />
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-4">
-                <div className="text-white font-semibold">
-                  Corporate Staffing
-                </div>
-              </div>
-            </div>
-            <div className="relative h-48 rounded-xl overflow-hidden bg-green-100">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Home className="h-16 w-16 text-green-600" />
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-4">
-                <div className="text-white font-semibold">
-                  Domestic Solutions
-                </div>
-              </div>
-            </div>
-            <div className="relative h-48 rounded-xl overflow-hidden bg-purple-100">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Heart className="h-16 w-16 text-purple-600" />
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 bg-black/50 p-4">
-                <div className="text-white font-semibold">
-                  Training Programs
-                </div>
-              </div>
-            </div>
-          </motion.div>
+          
         </div>
       </section>
 
