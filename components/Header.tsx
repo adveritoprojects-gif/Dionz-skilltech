@@ -51,10 +51,10 @@ export default function Header() {
                   <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/0 via-blue-500/5 to-blue-500/0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                   {/* Logo Container */}
-                  <div className="relative z-10">
-                    <div className="relative w-[180px] h-[45px] md:w-[220px] md:h-[55px]">
+                  <div className="relative z-10 -ml-8 bg-green-500">
+                    <div className="relative w-[200px] h-[65px] md:w-[240px] md:h-[75px] bg-red-500 ">
                       <Image
-                        src="/dionz.png"
+                        src="/favicon.ico"
                         alt="DIONZ Skilltech Agency"
                         fill
                         className="object-contain object-left"
@@ -62,7 +62,6 @@ export default function Header() {
                         priority
                       />
                     </div>
-
                     {/* Subtle Accent Line */}
                     <div className="h-[2px] w-0 group-hover:w-full bg-gradient-to-r from-blue-500 to-blue-300 transition-all duration-700 mt-1" />
                   </div>
@@ -298,9 +297,7 @@ export default function Header() {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.4 }}
                   className="mt-12 pt-8 border-t border-blue-50"
-                >
-                  
-                </motion.div>
+                ></motion.div>
               </div>
             </motion.div>
           </>
