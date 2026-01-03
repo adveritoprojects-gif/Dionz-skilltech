@@ -25,7 +25,6 @@ import {
 
 import Image from "next/image";
 
-
 export default function DionzHomePage() {
   const [isScrolled, setIsScrolled] = useState(false);
   const sectionRefs = {
@@ -509,7 +508,6 @@ export default function DionzHomePage() {
           </div>
 
           {/* Service Gallery */}
-          
         </div>
       </section>
 
