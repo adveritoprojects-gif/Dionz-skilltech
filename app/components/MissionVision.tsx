@@ -27,7 +27,7 @@ export default function MissionVision() {
               
               <div className="space-y-6">
                 <p className="text-blue-100 leading-relaxed">
-                  At DIONZ Skilltech Agency, our mission is to empower individuals with the right career paths 
+                  At DIONZ Skilltech Pvt Ltd, our mission is to empower individuals with the right career paths 
                   while helping businesses grow with reliable Skilltech solutions.
                 </p>
                 

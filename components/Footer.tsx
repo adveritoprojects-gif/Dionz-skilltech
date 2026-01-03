@@ -49,7 +49,7 @@ export default function Footer() {
       href: "/blog/project-manager",
     },
     {
-      title: "DIONZ Skilltech Agency – Bridging Talent and Opportunities",
+      title: "DIONZ Skilltech Pvt Ltd – Bridging Talent and Opportunities",
       href: "/blog/bridging-talent",
     },
     {
@@ -108,12 +108,12 @@ export default function Footer() {
                   DIONZ
                 </h2>
                 <p className="text-sm font-semibold tracking-[0.2em] uppercase text-blue-400">
-                  Skilltech Agency
+                  Skilltech Pvt Ltd
                 </p>
               </div>
 
               <p className="text-gray-600 leading-relaxed">
-                At DIONZ Skilltech Agency, we specialize in providing reliable
+                At DIONZ Skilltech Pvt Ltd, we specialize in providing reliable
                 and efficient manpower solutions tailored to the unique needs of
                 employers and job seekers.
               </p>

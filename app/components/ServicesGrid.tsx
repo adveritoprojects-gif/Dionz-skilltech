@@ -15,7 +15,7 @@ const services = [
   {
     title: "International Recruitment",
     description:
-      "DIONZ Skilltech Agency provides trusted international recruitment services for skilled and semi-skilled workers. We connect professionals with global employers in industries like construction, healthcare, hospitality, and logistics. Our transparent process ensures legal and safe overseas employment.",
+      "DIONZ Skilltech Pvt Ltd provides trusted international recruitment services for skilled and semi-skilled workers. We connect professionals with global employers in industries like construction, healthcare, hospitality, and logistics. Our transparent process ensures legal and safe overseas employment.",
     icon: <Globe className="w-8 h-8" />,
     features: [
       "Global placement",

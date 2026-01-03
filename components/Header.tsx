@@ -55,7 +55,7 @@ export default function Header() {
                     <div className="relative w-[200px] h-[65px] md:w-[240px] md:h-[75px]  ">
                       <Image
                         src="/favicon.ico"
-                        alt="DIONZ Skilltech Agency"
+                        alt="DIONZ Skilltech Pvt Ltd"
                         fill
                         className="object-contain object-left"
                         sizes="(max-width: 768px) 180px, 220px"
@@ -190,7 +190,7 @@ export default function Header() {
                     <div className="relative w-[160px] h-[40px]">
                       <Image
                         src="/dionz.png"
-                        alt="DIONZ Skilltech Agency"
+                        alt="DIONZ Skilltech Pvt Ltd"
                         fill
                         className="object-contain object-left"
                         sizes="160px"

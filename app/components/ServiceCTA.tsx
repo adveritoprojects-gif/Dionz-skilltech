@@ -30,7 +30,7 @@ export default function ServiceCTA() {
                 </h2>
                 <p className="text-blue-100 text-lg mb-8 leading-relaxed">
                   Whether you're looking for skilled professionals or seeking employment opportunities, 
-                  DIONZ Skilltech Agency is your trusted partner for all staffing needs.
+                  DIONZ Skilltech Pvt Ltd is your trusted partner for all staffing needs.
                 </p>
                 
                 <div className="space-y-4 mb-8">

@@ -26,7 +26,7 @@ export default function BlogHero() {
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
             Stay updated with the latest industry trends, recruitment insights, 
-            and career opportunities from DIONZ Skilltech Agency.
+            and career opportunities from DIONZ Skilltech Pvt Ltd.
           </p>
           
           {/* Search Bar */}

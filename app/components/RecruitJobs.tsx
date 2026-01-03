@@ -227,7 +227,7 @@
                     🚀 WALK-IN INTERVIEWS OPEN
                   </h3>
                   <p className="text-gray-800 font-semibold">
-                    November 16, 17 & 18 | DIONZ Skilltech Agency, Kollam
+                    November 16, 17 & 18 | DIONZ Skilltech Pvt Ltd, Kollam
                   </p>
                 </div>
                 <button className="px-8 py-3 bg-gray-900 text-white font-bold rounded-xl hover:bg-gray-800 transition-all">

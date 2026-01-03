@@ -24,7 +24,7 @@ export default function ServicesHero() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
-            DIONZ Skilltech Agency provides a wide range of manpower and recruitment services 
+            DIONZ Skilltech Pvt Ltd provides a wide range of manpower and recruitment services 
             to meet diverse industry needs. Our offerings include domestic and international 
             recruitment, skilled and unskilled labour supply, corporate staffing solutions, 
             housekeeping, and facility management services.

@@ -2,7 +2,7 @@ export default function StructuredData() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "DIONZ Skilltech Agency",
+    name: "DIONZ Skilltech Pvt Ltd",
     url: "https://www.dionzskilltech.com",
     logo: "https://www.dionzskilltech.com/logo.png",
     address: {
