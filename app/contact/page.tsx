@@ -30,7 +30,7 @@ export default function ContactPage() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: "+91 96331 50030",
+      details: "0474 2782 6529",
       subtitle: "Mon–Fri, 8:00 AM – 6:00 PM",
     },
     {

@@ -173,10 +173,10 @@ export default function Footer() {
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Call Us</h4>
                   <a
-                    href="tel:+91963315003"
+                    href="tel:0474 2782 6529"
                     className="text-blue-600 hover:text-blue-700 font-medium transition-colors text-lg"
                   >
-                    +91 96331 50003
+                    0474 2782 6529
                   </a>
                   <p className="text-gray-500 text-sm mt-1">
                     Available 24/7 for emergencies

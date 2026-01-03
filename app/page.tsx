@@ -329,7 +329,7 @@ export default function DionzHomePage() {
                 <div className="mt-8 pt-6 border-t border-gray-200">
                   <div className="flex items-center text-sm text-gray-600">
                     <Phone className="h-4 w-4 mr-2" />
-                    <span>+91 96331 50030</span>
+                    <span>0474 2782 6529</span>
                   </div>
                   <div className="flex items-center text-sm text-gray-600 mt-2">
                     <Mail className="h-4 w-4 mr-2" />

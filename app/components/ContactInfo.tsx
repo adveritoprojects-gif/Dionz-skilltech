@@ -21,8 +21,8 @@ export default function ContactInfo() {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Call Us",
-      details: ["+91 96331 50030"],
-      link: "tel:+919633150030",
+      details: ["0474 2782 6529"],
+      link: "tel:0474 2782 6529",
       linkText: "Call Now"
     },
     {

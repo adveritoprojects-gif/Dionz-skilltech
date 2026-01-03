@@ -39,7 +39,7 @@ export default function ServiceCTA() {
                     <div>
                       <div className="font-semibold">Call Us</div>
                       <a href="tel:+919633150003" className="text-blue-100 hover:text-white transition-colors">
-                        +91 96331 50003
+                        0474 2782 6529
                       </a>
                     </div>
                   </div>

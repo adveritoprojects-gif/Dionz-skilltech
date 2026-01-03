@@ -158,7 +158,7 @@ export default function RecruitProcess() {
                       Call our Recruitment Team
                     </div>
                     <div className="text-blue-200">
-                      RIYA: +91 96331 50030 | +972 55 9419714
+                      0474 2782 6529
                     </div>
                   </div>
                 </div>
