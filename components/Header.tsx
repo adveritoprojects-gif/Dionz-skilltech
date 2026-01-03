@@ -51,8 +51,8 @@ export default function Header() {
                   <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/0 via-blue-500/5 to-blue-500/0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                   {/* Logo Container */}
-                  <div className="relative z-10 -ml-8 bg-green-500">
-                    <div className="relative w-[200px] h-[65px] md:w-[240px] md:h-[75px] bg-red-500 ">
+                  <div className="relative z-10 -ml-8 ">
+                    <div className="relative w-[200px] h-[65px] md:w-[240px] md:h-[75px]  ">
                       <Image
                         src="/favicon.ico"
                         alt="DIONZ Skilltech Agency"
